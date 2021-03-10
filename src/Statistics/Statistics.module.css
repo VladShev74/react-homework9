@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+li {
+    list-style-type: none;
+}
+
+.statistics {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    text-transform: uppercase;
+    color: #4e5558;
+}
+
+.list {
+    margin: auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.item1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    background-color: #4ec5f8;
+}
+
+.item2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    background-color: #a33cf4;
+}
+
+.item3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    background-color: #e64c66;
+}
+
+.item4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    background-color: #20b8c5;
+}
+
+.label {
+    margin-bottom: 15px;
+}
+
+.percentage {
+    font-size: 24px;
+}
